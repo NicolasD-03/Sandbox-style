@@ -58,7 +58,7 @@ header{
     height: 100%;
 }
 
-.nav-item:hover > a{
+.nav-item:hover > {
     color: #fff;
     text-decoration: underline;
     transition: all 0.3s;
@@ -247,13 +247,17 @@ main{
     align-items: center;
 }
 
-.control-button a{
+.control-button > div{
     margin: 0px 20px;
     height: 42px;
     width: 42px;
 }
 
-.control-button a:hover svg{
+.control-button div:hover{
+    cursor: pointer;
+}
+
+.control-button div:hover svg{
     color: #fff;
 }
 
